@@ -20,23 +20,26 @@ La carpeta back posee dentro un proyecto en arquitectura Hexagfonal con java17 S
 
 En los caso de tener error a conmectarse con la api **dummy.restapiexample** puede devolver los siguientes mensajes:
 
- 
+1 Opcion 
 ```json
             {
              "message" : "Error al consultar el servicio, por favor intenta más tarde"
             }
-        ```      
+```  
+2 Opcion             
+
 ```json
             {
              "message" : "No se encontró empleado con el id: 1"
             }
-        ```  
+```  
 Cuando el id no se encuentra en la api  **dummy.restapiexample**
+
 ```json
             {
              "message" : "No se encontró empleado con el id: 888"
             }
-        ```  
+```  
 
 2. Enpoint: Path `/getall`  y el método HTTP tipo **GET** retorna todos loe empleado, los siguientes datos en el caso de exito 
 
