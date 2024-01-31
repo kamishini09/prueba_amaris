@@ -80,7 +80,7 @@ En los caso de tener error a conmectarse con la api **dummy.restapiexample** pue
             {
              "message" : "Error al consultar el servicio, por favor intenta más tarde"
             }
-        ```      
+```      
 
 Para correr el proyecto solo es necesario descargar la carppeta prueba, abrir en un IDE para lo cual se recomienda IntelliJ Idea y ejecutar.
 
